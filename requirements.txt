@@ -1,0 +1,10 @@
+fastapi
+uvicorn[standard]
+strawberry-graphql[fastapi]
+redis
+pytest
+httpx
+python-dotenv
+sqlalchemy>=2.0
+aiosqlite
+alembic
