@@ -28,3 +28,20 @@ app.include_router(graphql_app, prefix="/graphql")
 @app.get("/health")
 async def health():
     return {"status": "ok"}
+
+
+@app.get("/")
+def home():
+    return {
+        "message": "Welcome to TaskFlow!",
+        "graphql": "/graphql",
+        "health": "/health",
+    }
+
+
+@app.get("/")
+def home():
+    return {"message": "Welcome to TaskFlow!",
+            "graphql": "/graphql",
+            "health": "/health"
+            }
