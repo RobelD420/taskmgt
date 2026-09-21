@@ -39,9 +39,3 @@ def home():
     }
 
 
-@app.get("/")
-def home():
-    return {"message": "Welcome to TaskFlow!",
-            "graphql": "/graphql",
-            "health": "/health"
-            }

@@ -9,3 +9,5 @@ sqlalchemy>=2.0
 asyncpg
 psycopg[binary]
 alembic
+httpx
+pytest
