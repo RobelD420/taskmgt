@@ -5,9 +5,9 @@ redis
 pytest
 httpx
 python-dotenv
-sqlalchemy>=2.0
+sqlalchemy[asyncio]>=2.0
 asyncpg
 psycopg[binary]
 alembic
-httpx
-pytest
+pwdlib[argon2]
+PyJWT
